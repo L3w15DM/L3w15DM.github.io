@@ -165,9 +165,9 @@ textarea {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-.link {
+/* .link {
     max-width: 30px;
     min-height: 30px;
-}
+} */
