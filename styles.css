@@ -58,6 +58,12 @@ li a:hover {
     justify-content: left;
     margin: 5px;
 }
+.question {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+}
 .name {
     font-size: 150px;
     color: #f00;
