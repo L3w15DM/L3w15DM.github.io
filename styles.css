@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #000, #0042aa);
+    color: white;
+}
+h2 {
+    text-align: center;
+    font-size: 70px;
+    color: #f00;
+}
+
+/* Site Navigation */  
+#navbar {
+    background-color: #0042aa;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0042aa;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #000000;
+}
+
+
+/* Hero */
+.s1 {
+    background: url("./images/website-647013_1280.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 5px;
+}
+.name {
+    font-size: 150px;
+    color: #f00;
+}
+.myName {
+    font-size: small;
+    color: aquamarine;
+    text-align: center;
+
+}
+.pop {
+    align-self: flex-end;
+    color: #f00;
+}
+.meinsun {
+    border-radius: 70%;
+    border: solid 2px #f00;
+    max-width: 10%;
+    max-height: 10%;
+    background: transparent;
+    align-self: center;
+}
+
+/* About Me */
+.s2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    margin: 5px;
+
+}
+.me {
+    max-width: 30%;
+    max-height: 30%;
+    border: solid 2px #f00;
+}
+
+   
+/* Projects and Skills */
+
+.s3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+}
+.card {
+    background: linear-gradient(to left, #f00, #00f);
+    display: flex;
+    flex-direction: column;
+    Width: 280px;
+    height: 450px;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 10px;
+    text-align: center;
+    
+}
+.cms {
+    width: 150px;
+    height: 200px;
+}
+.gt {
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Contact */
+.s4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+
+}
+
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+   
+textarea {
+    border: 0; 
+    outline: 0;
+    padding: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+}
+  
+#input-submit {
+    color: white; 
+    background: #f00;
+    cursor: pointer;
+}
+   
+textarea {
+    height: 150px;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/* .bt {
+    border-radius: 30%;
+    padding: 1px;
+    margin: 5px;
+} */
+.link {
+    max-width: 30px;
+    min-height: 30px;
+}
