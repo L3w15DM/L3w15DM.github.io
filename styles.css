@@ -7,6 +7,7 @@ body {
     background: linear-gradient(to bottom, #000, #0042aa);
     color: white;
 }
+
 h2 {
     text-align: center;
     font-size: 70px;
@@ -21,8 +22,6 @@ h2 {
     text-align: center;
     margin: 5px;
 }
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -30,11 +29,9 @@ ul {
     overflow: hidden;
     background-color: #0042aa;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: white;
@@ -42,7 +39,6 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover {
     background-color: #000000;
 }
@@ -105,7 +101,6 @@ li a:hover {
 
    
 /* Projects and Skills */
-
 .s3 {
     display: flex;
     flex-wrap: wrap;
@@ -146,7 +141,6 @@ li a:hover {
     justify-content: center;
 
 }
-
 form {
     max-width: 600px;
     text-align: center;
